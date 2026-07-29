@@ -1,0 +1,11 @@
+import HautevilleHouse.LinearDiophantineEquationsTheoremCanonicalLaneLean.HilbertBasis
+
+namespace HautevilleHouse
+namespace LinearDiophantineEquationsTheoremCanonicalLaneLean
+
+structure FiniteGenerationProof (hb : HilbertBasis) where
+  finiteGeneration : hb.finitelyGenerated
+  proofTerm : finiteGeneration
+
+end LinearDiophantineEquationsTheoremCanonicalLaneLean
+end HautevilleHouse
